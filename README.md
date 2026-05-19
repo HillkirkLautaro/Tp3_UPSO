@@ -3,23 +3,32 @@
 tp 3 de csharp de la universidad
 
 
-TRABAJO PRÁCTICO UNIDAD 3
-Asignatura: Programacion C#/.NET
-Docente/s: Lic. Diaz Marcelo - Sr. Juan Fernando Desages
-Fecha: 03/05/2026- 09/05/2026
-EJERCICIOS
-BIBLIOGRAFÍA
-https://learn.microsoft.com/es-es/dotnet/csharp/
-Página 1 / 4
-TRABAJO PRÁCTICO UNIDAD 3
-Asignatura: Programacion C#/.NET
-Ejercicio 1:
+## TRABAJO PRÁCTICO UNIDAD 3
+
+## Asignatura: Programacion C#/.NET
+
+## Docente/s: Lic. Diaz Marcelo - Sr. Juan Fernando Desages
+
+## Fecha: 03/05/2026- 09/05/2026
+
+## EJERCICIOS
+
+## BIBLIOGRAFÍA
+
+### https://learn.microsoft.com/es-es/dotnet/csharp/
+
+## TRABAJO PRÁCTICO UNIDAD 3
+
+## Asignatura: Programacion C#/.NET
+
+## Ejercicio 1:
 Crear una clase Persona con:
  propiedades Nombre y Edad
  constructor que reciba ambos datos
  método Saludar()
 Instanciar dos objetos y mostrar sus datos.
-Ejercicio 2:
+
+## Ejercicio 2:
 Crear una clase Producto con:
  Nombre
  Precio
@@ -28,7 +37,8 @@ Métodos:
  ActualizarStock()
  MostrarProducto()
 Validar que el stock no sea negativo.
-Ejercicio 3:
+
+## Ejercicio 3:
 Crear una clase Rectangulo con:
  Base
  Altura
@@ -38,13 +48,8 @@ Implementar:
 Métodos:
  CalcularArea()
  CalcularPerimetro()
-TRABAJO PRÁCTICO UNIDAD 3
-BIBLIOGRAFÍA
-https://learn.microsoft.com/es-es/dotnet/csharp/
-Página 2 / 4
-TRABAJO PRÁCTICO UNIDAD 3
-Asignatura: Programacion C#/.NET
-Ejercicio 4:
+
+## Ejercicio 4:
 Crear una clase CuentaBancaria.
 Requisitos:
  atributo privado saldo
@@ -53,7 +58,8 @@ Métodos:
  Depositar()
  Extraer()
 Validar que no se pueda extraer más dinero del disponible.
-Ejercicio 5:
+
+##Ejercicio 5:
 Crear una clase base Vehiculo.
 Derivar:
  Auto
@@ -62,7 +68,8 @@ Agregar método:
  MostrarInformacion()
 Crear una interfaz IDibujable con método Dibujar(). Implementar en las clases Circulo,
 Rectangulo y Triangulo.
-Ejercicio 6:
+
+## Ejercicio 6:
 Crear una clase base Empleado.
 Derivar:
  EmpleadoTiempoCompleto
@@ -70,7 +77,8 @@ Derivar:
 Método:
  CalcularSueldo()
 Mostrar el cálculo usando polimorsmo.
-Ejercicio 7:
+
+## Ejercicio 7:
 Crear una clase abstracta Figura.
 Método abstracto:
  CalcularArea()
@@ -78,13 +86,8 @@ Implementar:
  Circulo
  Cuadrado
  Triangulo
-TRABAJO PRÁCTICO UNIDAD 3
-BIBLIOGRAFÍA
-https://learn.microsoft.com/es-es/dotnet/csharp/
-Página 3/ 4
-TRABAJO PRÁCTICO UNIDAD 3
-Asignatura: Programacion C#/.NET
-Ejercicio 8:
+
+## Ejercicio 8:
 Crear una interfaz IImprimible.
 Método:
  Imprimir()
@@ -92,7 +95,7 @@ Implementarla en:
  Factura
  Ticket
  Contrato
-Ejercicio 9:
+## Ejercicio 9:
 Crear una clase estática Conversor.
 Métodos:
  CelsiusAFahrenheit()
@@ -100,7 +103,8 @@ Métodos:
 Agregar:
  KilometrosAMillas()
  MillasAKilometros()
-Ejercicio 10:
+
+## Ejercicio 10:
 Crear una clase base Animal.
 Derivar:
  Perro
@@ -120,13 +124,8 @@ Derivar:
  EstudiantePresencial
  EstudianteVirtual
 Aplicar polimorsmo.
-TRABAJO PRÁCTICO UNIDAD 3
-BIBLIOGRAFÍA
-https://learn.microsoft.com/es-es/dotnet/csharp/
-Página 4/ 4
-TRABAJO PRÁCTICO UNIDAD 3
-Asignatura: Programacion C#/.NET
-Ejercicio 12:
+
+## Ejercicio 12:
 Crear una clase abstracta Habitacion.
 Propiedades:
  Numero
@@ -137,8 +136,10 @@ Subclases:
  HabitacionSimple
  HabitacionDoble
  HabitacionSuite
-BONUS TRACK
-Ejercicio BT1:
+
+## BONUS TRACK
+
+## Ejercicio BT1:
 Crear una clase Jugador.
 Propiedades:
  Nombre, Edad, Posicion
