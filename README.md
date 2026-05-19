@@ -146,7 +146,8 @@ Propiedades:
 Constructor con parámetros.
 Método:
  MostrarFicha()
-Ejercicio BT2:
+
+## Ejercicio BT2:
 Crear una clase Equipo.
 Propiedades:
  Nombre, Categoria
@@ -157,7 +158,8 @@ Clase base:
  PersonaDeportiva
 Subclases:
  Jugador, Entrenador, Arbitro
-Ejercicio BT3:
+
+## Ejercicio BT3:
 Crear interfaz:
  IEstadistica
 Implementarla en: Jugador, Equipo
