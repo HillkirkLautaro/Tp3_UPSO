@@ -59,7 +59,7 @@ Métodos:
  Extraer()
 Validar que no se pueda extraer más dinero del disponible.
 
-##Ejercicio 5:
+## Ejercicio 5:
 Crear una clase base Vehiculo.
 Derivar:
  Auto
