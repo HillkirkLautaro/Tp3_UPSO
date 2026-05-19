@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{FA937FC5-8A76-49C4-B76D-B70817A82A46}</ProjectGuid>
+    <ProjectGuid>{A37359DF-9453-473C-ACD4-A1D0FFA39CB4}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Tp3_UPSO</RootNamespace>
-    <AssemblyName>Tp3_UPSO</AssemblyName>
+    <RootNamespace>Punto2</RootNamespace>
+    <AssemblyName>Punto2</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="entidades\Class1.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

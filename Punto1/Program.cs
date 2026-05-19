@@ -1,29 +1,26 @@
 ﻿using System;
+using System.Net;
+using Tp3_UPSO.entidades;
 
 namespace Ejercicio1
 {
-    class Persona
-    {
-        // Propiedades
-        public string Nombre { get; set; }
-        public int Edad { get; set; }
 
-        // Constructor
-        public Persona(string nombre, int edad)
+    internal static class Program
+    {
+        /// <summary>
+        /// Metodo saludar
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <return>Retorna una frase con el nombre y la edad de la persona</return>
+        static void Saludar(this Persona persona)
         {
-            Nombre = nombre;
-            Edad = edad;
+            Console.WriteLine($"Hola, mi nombre es {persona.Nombre} y tengo {persona.Edad} años.");
         }
 
-        // Método
-        public void Saludar()
-        {
-            Console.WriteLine($"Hola, mi nombre es {Nombre} y tengo {Edad} años.");
-        }
-    }
-
-    class Program
-    {
+        /// <summary>
+        /// Metodo principal del programa
+        /// </summary>
+        /// <param name="args"></param>
         static void Main(string[] args)
         {
             // Instanciar objetos
