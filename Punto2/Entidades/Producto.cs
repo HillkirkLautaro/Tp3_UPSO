@@ -74,6 +74,12 @@ namespace Punto2.Entidades
         {
             Console.WriteLine($"Nombre: {this.Nombre} - Stock: {this.Stock} - Precio: {this.Precio}");
         }
+
+        /// <summary>
+        /// Metodo que recibe un nuevo valor de stock y lo asigna al atributo correspondiente.
+        /// </summary>
+        /// <param name="q"></param>
+        /// <returns>nuevo valor de stock</returns>
         public int ActualizarStock(int q)
         {
             stock = q;
