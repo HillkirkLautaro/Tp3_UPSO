@@ -6,17 +6,7 @@ namespace Ejercicio1
 {
 
     internal static class Program
-    {
-        /// <summary>
-        /// Metodo saludar
-        /// </summary>
-        /// <param name="persona"></param>
-        /// <return>Retorna una frase con el nombre y la edad de la persona</return>
-        static void Saludar(this Persona persona)
-        {
-            Console.WriteLine($"Hola, mi nombre es {persona.Nombre} y tengo {persona.Edad} años.");
-        }
-
+    {       
         /// <summary>
         /// Metodo principal del programa
         /// </summary>

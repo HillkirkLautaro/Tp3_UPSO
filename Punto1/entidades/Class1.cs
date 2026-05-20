@@ -9,7 +9,7 @@ namespace Tp3_UPSO.entidades
     /// <summary>
     /// Crear la clase persona con los atributos nombre y edad.
     /// </summary>
-    internal class Persona
+    class Persona
     {
         /// <summary>
         /// Valores privados de nombre y edad.
@@ -31,6 +31,14 @@ namespace Tp3_UPSO.entidades
             this.Nombre = nombre;
             this.Edad = edad;
         }
-
+        /// <summary>
+        /// Metodo saludar
+        /// </summary>
+        /// <param name="persona"></param>
+        /// <return>Retorna una frase con el nombre y la edad de la persona</return>
+        public void Saludar()
+        {
+            Console.WriteLine($"Hola, mi nombre es {Nombre} y tengo {Edad} años.");
+        }
     }
 }
