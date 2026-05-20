@@ -20,7 +20,7 @@ namespace Ejercicio1
             // Mostrar datos
             persona1.Saludar();
             persona2.Saludar();
-
+            Console.WriteLine($"{persona1}");
             Console.ReadKey();
         }
     }

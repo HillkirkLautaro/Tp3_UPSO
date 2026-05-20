@@ -1,8 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using Punto2.Entidades;
 
 namespace Punto2
 {
@@ -10,6 +7,12 @@ namespace Punto2
     {
         static void Main(string[] args)
         {
+            // Instancio Producto
+            Producto producto1 = new Producto("Manzana", -2, -5.5);
+            producto1.MostrarProducto();
+            producto1.ActualizarStock(2);
+            producto1.MostrarProducto();
+
         }
     }
 }
