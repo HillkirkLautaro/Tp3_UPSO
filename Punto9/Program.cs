@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Punto9.Entidades;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace Punto9
     {
         static void Main(string[] args)
         {
+            Console.WriteLine(Conversor.FahrenheitACelsius(10));
+            Console.WriteLine(Conversor.CelsiusAFahrenheit(10));
+            Console.WriteLine(Conversor.MillasAKilometros(10));
+            Console.WriteLine(Conversor.KilometrosAMillas(10));
         }
     }
 }
